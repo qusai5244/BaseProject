@@ -28,6 +28,8 @@ Thumbs.db
 
 # VS specific files
 .vs/
+.vs/DesignTimeBuild
+.vs/FileContentIndex/
 
 # Resharper files
 _ReSharper*/
@@ -80,3 +82,6 @@ coverage/*
 # Temporary files
 *.tmp
 *.temp
+
+*.dtbcache.v2
+v17/
