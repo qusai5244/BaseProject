@@ -4525,11 +4525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
+      "projectUniqueName": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\BaseProject.csproj",
       "projectName": "BaseProject",
-      "projectPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
+      "projectPath": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\BaseProject.csproj",
       "packagesPath": "C:\\Users\\QUSAI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\obj\\",
+      "outputPath": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\QUSAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
