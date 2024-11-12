@@ -85,3 +85,14 @@ coverage/*
 
 *.dtbcache.v2
 v17/
+# Ignore .vs folder and its contents
+.vs/
+
+# Ignore specific file types
+*.db
+*.db-shm
+*.db-wal
+*.v2
+*.suo
+*.bin
+*.json
