@@ -4520,19 +4520,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\QUSAI\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\BaseProject.csproj",
       "projectName": "BaseProject",
-      "projectPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
-      "packagesPath": "C:\\Users\\QUSAI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\obj\\",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\BaseProject.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\QUSAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
