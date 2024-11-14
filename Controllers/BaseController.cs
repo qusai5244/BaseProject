@@ -6,7 +6,7 @@ using BaseProject.Helpers;
 namespace BaseProject.Controllers
 {
     [ApiController]
-    [Authorize]
+   // [Authorize]
     [Consumes("application/json")]
     [Produces("application/json")]
     public class BaseController : ControllerBase
