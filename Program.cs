@@ -14,7 +14,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.Services.AddScoped<IMessageHandler, MessageHandler>();
 builder.Services.AddScoped<ICarServices, CarService>();
-builder.Services.AddScoped<IProductSerfaces, ProductService>();
+builder.Services.AddScoped<IProductServices, ProductService>();
 builder.Services.AddScoped<IShopServises, ShopService>();
 
 builder.Services.AddControllers();

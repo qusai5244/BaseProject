@@ -3,16 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\interfaces\\ishopservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\ishopservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\globalfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\globalfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\product\\updateproductinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\product\\updateproductinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\product\\getproductoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\product\\getproductoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\product\\addproductinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\product\\addproductinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\car\\updatecarddto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\car\\updatecarddto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\car\\addnewcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\car\\addnewcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\shop\\addshopinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\shop\\addshopinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\car\\carlistoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\car\\carlistoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\car\\caroutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\car\\caroutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\interfaces\\icarservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\icarservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\interfaces\\ishopservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\ishopservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\helpers\\messagehandler\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:helpers\\messagehandler\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\baseproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:baseproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241204180901_Products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241204180901_Products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 90,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +138,259 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProductOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\GetProductOutputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Product\\GetProductOutputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\GetProductOutputDto.cs",
+              "RelativeToolTip": "Dtos\\Product\\GetProductOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:58:33.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProductInputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\UpdateProductInputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Product\\UpdateProductInputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\UpdateProductInputDto.cs",
+              "RelativeToolTip": "Dtos\\Product\\UpdateProductInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:06:11.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\GlobalFilterDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\GlobalFilterDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\GlobalFilterDto.cs",
+              "RelativeToolTip": "Dtos\\GlobalFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:38:06.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:30:15.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductServices.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:00:35.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAowDsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:37:32.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:41:33.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:47:23.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProductInputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\AddProductInputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Product\\AddProductInputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\AddProductInputDto.cs",
+              "RelativeToolTip": "Dtos\\Product\\AddProductInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:30:51.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateCardDto .cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\UpdateCardDto .cs",
+              "RelativeDocumentMoniker": "Dtos\\Car\\UpdateCardDto .cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\UpdateCardDto .cs",
+              "RelativeToolTip": "Dtos\\Car\\UpdateCardDto .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:33:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddNewCardDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\AddNewCardDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Car\\AddNewCardDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\AddNewCardDto.cs",
+              "RelativeToolTip": "Dtos\\Car\\AddNewCardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:33:38.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\ShopService.cs",
+              "RelativeDocumentMoniker": "Services\\ShopService.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\ShopService.cs",
+              "RelativeToolTip": "Services\\ShopService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T17:21:26.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:07:32.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:34:07.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddShopInputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Shop\\AddShopInputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Shop\\AddShopInputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Shop\\AddShopInputDto.cs",
+              "RelativeToolTip": "Dtos\\Shop\\AddShopInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T11:33:56.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarListOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarListOutputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Car\\CarListOutputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarListOutputDto.cs",
+              "RelativeToolTip": "Dtos\\Car\\CarListOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:00:45.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\CarService.cs",
+              "RelativeToolTip": "Services\\CarService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwDwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:04:51.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CarOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarOutputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Car\\CarOutputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarOutputDto.cs",
+              "RelativeToolTip": "Dtos\\Car\\CarOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:00:48.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "Helpers\\Pagination.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "Helpers\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:38:33.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICarServices.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICarServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICarServices.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICarServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICarServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T20:04:59.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "IShopServises.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IShopServises.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IShopServises.cs",
@@ -50,34 +398,79 @@
               "RelativeToolTip": "Services\\Interfaces\\IShopServises.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:33:12.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:33:12.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProductInputDto.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\AddProductInputDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Product\\AddProductInputDto.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Product\\AddProductInputDto.cs",
-              "RelativeToolTip": "Dtos\\Product\\AddProductInputDto.cs",
+              "DocumentIndex": 25,
+              "Title": "BaseProject.http",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\BaseProject.http",
+              "RelativeDocumentMoniker": "BaseProject.http",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\BaseProject.http",
+              "RelativeToolTip": "BaseProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-05T17:54:47.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\MessageHandler\\IMessageHandler.cs",
+              "RelativeDocumentMoniker": "Helpers\\MessageHandler\\IMessageHandler.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\MessageHandler\\IMessageHandler.cs",
+              "RelativeToolTip": "Helpers\\MessageHandler\\IMessageHandler.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T17:54:15.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T17:53:59.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-05T17:55:00.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T17:44:21.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241204180901_Products.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241204180901_Products.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241204180901_Products.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241204180901_Products.cs",
+              "RelativeToolTip": "Migrations\\20241204180901_Products.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:30:51.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddShopInputDto.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Shop\\AddShopInputDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Shop\\AddShopInputDto.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Shop\\AddShopInputDto.cs",
-              "RelativeToolTip": "Dtos\\Shop\\AddShopInputDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:28:38.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:09:01.496Z"
             }
           ]
         }
