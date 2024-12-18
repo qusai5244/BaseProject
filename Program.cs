@@ -1,23 +1,30 @@
-using BaseProject.Data;
+using BaseProject.Data; 
+using BaseProject.Services; 
 using Microsoft.EntityFrameworkCore;
-
+using BaseProject.Services.Interfaces; 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddScoped<ICinemaService, CinemaService>(); 
+builder.Services.AddScoped<ICinemaHallService, CinemaHallService>(); 
+builder.Services.AddScoped<IMovieService, MovieService>(); 
+builder.Services.AddScoped<IMovieScheduleService, MovieScheduleService>();
+
+
+
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

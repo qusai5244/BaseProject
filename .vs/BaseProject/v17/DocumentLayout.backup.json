@@ -1,7 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\moviescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\moviescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\controllers\\moviecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\moviecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\interfaces\\imoviescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\imoviescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\cinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\cinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\interfaces\\icinemahallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\icinemahallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\interfaces\\icinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\icinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\services\\cinemahallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\cinemahallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\models\\movieschedule .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\movieschedule .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\models\\movie .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\movie .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\baseproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:baseproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\najla\\desktop\\nahij\\baseproject\\models\\cinemahall .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:models\\cinemahall .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +90,271 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:04:01.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieController .cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Controllers\\MovieController .cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController .cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Controllers\\MovieController .cs*",
+              "RelativeToolTip": "Controllers\\MovieController .cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:57:32.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Controllers\\CinemaController.cs*",
+              "RelativeToolTip": "Controllers\\CinemaController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:54:07.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\MovieScheduleService.cs",
+              "RelativeDocumentMoniker": "Services\\MovieScheduleService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\MovieScheduleService.cs*",
+              "RelativeToolTip": "Services\\MovieScheduleService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:52:29.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\IMovieService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\IMovieService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\IMovieService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:46:28.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Data\\DataContext.cs*",
+              "RelativeToolTip": "Data\\DataContext.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:05:38.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\MovieService.cs*",
+              "RelativeToolTip": "Services\\MovieService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:43:59.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\appsettings.Development.json*",
+              "RelativeToolTip": "appsettings.Development.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T17:26:06.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMovieScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\IMovieScheduleService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMovieScheduleService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\IMovieScheduleService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\IMovieScheduleService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:46:55.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CinemaService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\CinemaService.cs",
+              "RelativeDocumentMoniker": "Services\\CinemaService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\CinemaService.cs*",
+              "RelativeToolTip": "Services\\CinemaService.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:38:17.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICinemaHallService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\ICinemaHallService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICinemaHallService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\ICinemaHallService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\ICinemaHallService.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:46:02.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICinemaService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\ICinemaService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICinemaService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\Interfaces\\ICinemaService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\ICinemaService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:45:20.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CinemaHallService.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\CinemaHallService.cs",
+              "RelativeDocumentMoniker": "Services\\CinemaHallService.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Services\\CinemaHallService.cs*",
+              "RelativeToolTip": "Services\\CinemaHallService.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:43:11.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T17:12:42.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieSchedule .cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\MovieSchedule .cs",
+              "RelativeDocumentMoniker": "Models\\MovieSchedule .cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\MovieSchedule .cs",
+              "RelativeToolTip": "Models\\MovieSchedule .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:57:52.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Movie .cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\Movie .cs",
+              "RelativeDocumentMoniker": "Models\\Movie .cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\Movie .cs",
+              "RelativeToolTip": "Models\\Movie .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:56:51.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CinemaHall .cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\CinemaHall .cs",
+              "RelativeDocumentMoniker": "Models\\CinemaHall .cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\CinemaHall .cs",
+              "RelativeToolTip": "Models\\CinemaHall .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:56:04.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:52:59.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\Models\\Cinema.cs",
+              "RelativeToolTip": "Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:51:09.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseProject.csproj",
+              "DocumentMoniker": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\BaseProject.csproj",
+              "RelativeDocumentMoniker": "BaseProject.csproj",
+              "ToolTip": "C:\\Users\\najla\\Desktop\\Nahij\\BaseProject\\BaseProject.csproj",
+              "RelativeToolTip": "BaseProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T11:24:58.111Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -35,7 +35,7 @@ namespace BaseProject.Services
                     CreatedAt = DateTime.UtcNow
                 };
 
-                await _dataContext.Shops.AddAsync(shop);
+                await _dataContext.Shop.AddAsync(shop);
                 await _dataContext.SaveChangesAsync();
 
                 return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Shop");
