@@ -33,6 +33,12 @@ namespace BaseProject.Controllers
             return GetServiceResponse(await _movieService.GetCinemasByMovieNameAsync(movieName));
         }
 
+        [HttpGet("GetMoviesByCinema/{cinemaId}")]
+        public async Task<IActionResult> GetMoviesByCinemaId(int cinemaId)
+        {
+            return GetServiceResponse(await _movieService.GetMoviesByCinemaIdAsync(cinemaId));
+        }
+
         [HttpPut("{movieId}")]
         public async Task<IActionResult> Put(int movieId, [FromBody] UpdateMovieInputDto input)
         {

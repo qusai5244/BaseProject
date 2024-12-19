@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\movie\\getmoviesbycinemaidoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:dtos\\movie\\getmoviesbycinemaidoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\dell\\desktop\\nahj\\baseproject\\dtos\\movie\\getcinemasbymovienameoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,13 +186,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetMoviesByCinemaIdOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetMoviesByCinemaIdOutputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Movie\\GetMoviesByCinemaIdOutputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetMoviesByCinemaIdOutputDto.cs",
+              "RelativeToolTip": "Dtos\\Movie\\GetMoviesByCinemaIdOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:57:18.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "Services\\MovieService.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\MovieService.cs",
               "RelativeToolTip": "Services\\MovieService.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAADwv3EAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAwwKgAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T15:05:52.016Z",
               "EditorCaption": ""
@@ -196,6 +213,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GetCinemasByMovieNameOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
+              "RelativeToolTip": "Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:51:55.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IMovieService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IMovieService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:57:08.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:17:52.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GetCinemasByMovieNameInputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetCinemasByMovieNameInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Movie\\GetCinemasByMovieNameInputDto.cs",
@@ -209,32 +265,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetCinemasByMovieNameOutputDto.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
-              "RelativeToolTip": "Dtos\\Movie\\GetCinemasByMovieNameOutputDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:51:55.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMovieService.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IMovieService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IMovieService.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\IMovieService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IMovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:57:08.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CinemaController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\CinemaController.cs",
               "RelativeDocumentMoniker": "Controllers\\CinemaController.cs",
@@ -247,20 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "Controllers\\MovieController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:17:52.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CinemaHall.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\CinemaHall.cs",
               "RelativeDocumentMoniker": "Models\\CinemaHall.cs",
@@ -273,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CinemaHallService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\CinemaHallService.cs",
               "RelativeDocumentMoniker": "Services\\CinemaHallService.cs",
@@ -286,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CinemaService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\CinemaService.cs",
               "RelativeDocumentMoniker": "Services\\CinemaService.cs",
@@ -299,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ICinemaService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICinemaService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICinemaService.cs",
@@ -312,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Cinema.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\Cinema.cs",
               "RelativeDocumentMoniker": "Models\\Cinema.cs",
@@ -325,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ICinemaHallService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICinemaHallService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICinemaHallService.cs",
@@ -338,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CarService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\CarService.cs",
               "RelativeDocumentMoniker": "Services\\CarService.cs",
@@ -351,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "Controllers\\CarController.cs",
@@ -364,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateMovieInputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\UpdateMovieInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Movie\\UpdateMovieInputDto.cs",
@@ -377,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "GetMovieOutputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\GetMovieOutputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Movie\\GetMovieOutputDto.cs",
@@ -390,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddMovieInputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Movie\\AddMovieInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Movie\\AddMovieInputDto.cs",
@@ -403,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -416,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BaseModel.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Models\\BaseModel.cs",
               "RelativeDocumentMoniker": "Models\\BaseModel.cs",
@@ -429,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
@@ -442,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -455,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20241218180809_AddCinema_CinemaHall_AndMovie.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241218180809_AddCinema_CinemaHall_AndMovie.cs",
               "RelativeDocumentMoniker": "Migrations\\20241218180809_AddCinema_CinemaHall_AndMovie.cs",
@@ -468,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DataContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\DataContextModelSnapshot.cs",
@@ -481,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "20241218180629_AddCinemaHallAndMovie.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241218180629_AddCinemaHallAndMovie.cs",
               "RelativeDocumentMoniker": "Migrations\\20241218180629_AddCinemaHallAndMovie.cs",
@@ -494,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20241110155535_car_model.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241110155535_car_model.cs",
               "RelativeDocumentMoniker": "Migrations\\20241110155535_car_model.cs",
@@ -507,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20241218175655_CreateCinemaModel.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Migrations\\20241218175655_CreateCinemaModel.cs",
               "RelativeDocumentMoniker": "Migrations\\20241218175655_CreateCinemaModel.cs",
@@ -520,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CinemaHallController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Controllers\\CinemaHallController.cs",
               "RelativeDocumentMoniker": "Controllers\\CinemaHallController.cs",
@@ -533,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ServiceResponse.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\ServiceResponse.cs",
               "RelativeDocumentMoniker": "Helpers\\ServiceResponse.cs",
@@ -546,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "UpdateCardDto .cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\UpdateCardDto .cs",
               "RelativeDocumentMoniker": "Dtos\\Car\\UpdateCardDto .cs",
@@ -559,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "GlobalFilterDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\GlobalFilterDto.cs",
               "RelativeDocumentMoniker": "Dtos\\GlobalFilterDto.cs",
@@ -572,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Pagination.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Helpers\\Pagination.cs",
               "RelativeDocumentMoniker": "Helpers\\Pagination.cs",
@@ -585,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ICarServices.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICarServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICarServices.cs",
@@ -598,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CarListOutputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarListOutputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Car\\CarListOutputDto.cs",
@@ -611,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AddNewCardDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\AddNewCardDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Car\\AddNewCardDto.cs",
@@ -624,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CarOutputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Car\\CarOutputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Car\\CarOutputDto.cs",
@@ -637,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -650,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "AddCinemaHallInputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\CinemaHall\\AddCinemaHallInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CinemaHall\\AddCinemaHallInputDto.cs",
@@ -663,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "AddCinemaInputDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Nahj\\BaseProject\\Dtos\\Cinema\\AddCinemaInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Cinema\\AddCinemaInputDto.cs",

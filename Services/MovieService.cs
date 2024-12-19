@@ -143,6 +143,38 @@ namespace BaseProject.Services
             }
         }
 
+        public async Task<ServiceResponse<List<GetMoviesByCinemaIdOutputDto>>> GetMoviesByCinemaIdAsync(int cinemaId)
+        {
+            try
+            {
+                var query = from cinema in _dataContext.Cinemas
+                            join cinemaHall in _dataContext.CinemaHalls on cinema.Id equals cinemaHall.CinemaId
+                            join movie in _dataContext.Movies on cinemaHall.Id equals movie.CinemaHallId
+                            where cinema.Id == cinemaId && !movie.IsDeleted // Ensure movie is not deleted
+                            select new GetMoviesByCinemaIdOutputDto
+                            {
+                                MovieName = movie.Title,
+                                ReleaseDate = movie.ReleaseDate,
+                                CinemaId = cinema.Id,
+                                CinemaName = cinema.Name,
+                                CinemaHall = cinemaHall.HallName
+                            };
+
+                var movies = await query.ToListAsync();
+
+                if (!movies.Any())
+                {
+                    return _messageHandler.GetServiceResponse<List<GetMoviesByCinemaIdOutputDto>>(ErrorMessage.NotFound, null, "Movies in this cinema");
+                }
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, movies, "Movies");
+            }
+            catch (Exception ex)
+            {
+                return _messageHandler.GetServiceResponse<List<GetMoviesByCinemaIdOutputDto>>(ErrorMessage.ServerInternalError, null, "GetMoviesByCinemaIdAsync");
+            }
+        }
+
         public async Task<ServiceResponse> UpdateMovieAsync(int movieId, UpdateMovieInputDto input)
         {
             try
