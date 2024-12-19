@@ -3,28 +3,24 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BaseProject.Dtos.Movie
 {
-    public class AddNewMovie
+    public class GetMovieListOutput
     {
-        [Required]
-        [StringLength(500)]
+        public int Id { get; set; }
         public string Title { get; set; }
 
-        [Required]
-        [StringLength(500)]
+      
         public string Description { get; set; }
 
+       
+        public string Type { get; set; }
 
-        [EnumDataType(typeof(MovieType))]
-        public MovieType Type { get; set; }
-
-
-        [DataType(DataType.Date)]
+       
         public DateTime ReleaseDate { get; set; }
 
-
-        [Range(1, 500)]
+       
         public int Duration { get; set; }
 
-
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }
