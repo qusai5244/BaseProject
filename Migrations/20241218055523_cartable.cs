@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Maksab.Migrations
+namespace BaseProject.Migrations
 {
     /// <inheritdoc />
-    public partial class car_model : Migration
+    public partial class cartable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,7 @@ namespace Maksab.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Year = table.Column<int>(type: "int", nullable: false),
                     Mileage = table.Column<int>(type: "int", nullable: false),
-                    Color = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    Color = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Price = table.Column<int>(type: "int", nullable: false),
                     FuelType = table.Column<int>(type: "int", nullable: false),
                     TransmissionType = table.Column<int>(type: "int", nullable: false),

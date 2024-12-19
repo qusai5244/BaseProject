@@ -6,9 +6,10 @@ using BaseProject.Helpers;
 namespace BaseProject.Controllers
 {
     [ApiController]
-    [Authorize]
+    //[Authorize]
     [Consumes("application/json")]
     [Produces("application/json")]
+    [Route("api/[controller]")]
     public class BaseController : ControllerBase
     {
         private readonly IMessageHandler _messageHandler;

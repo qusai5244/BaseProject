@@ -1,4 +1,5 @@
-﻿using BaseProject.Data;
+﻿using Azure;
+using BaseProject.Data;
 using BaseProject.Dtos;
 using BaseProject.Dtos.Car;
 using BaseProject.Helpers;
@@ -76,6 +77,7 @@ namespace BaseProject.Services
 
                 // Step 4: Create a Pagination object with the retrieved items and total count.
                 var paginationList = new Pagination<CarListOutputDto>(cars, totalItems, input.Page, input.PageSize);
+
 
                 // Step 5: Wrap the pagination result in a ServiceResponse and return it.
                 return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, paginationList);

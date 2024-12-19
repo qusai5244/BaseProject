@@ -1,4 +1,7 @@
 using BaseProject.Data;
+using BaseProject.Helpers.MessageHandler;
+using BaseProject.Services;
+using BaseProject.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +17,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddTransient<IMessageHandler, MessageHandler>();
+
+builder.Services.AddTransient<ICinameServices, CinameService>();
+builder.Services.AddTransient<IHallServices, HallService>();
+builder.Services.AddTransient<IMovieServices, MovieService>();
+
 
 var app = builder.Build();
 
