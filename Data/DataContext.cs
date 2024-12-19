@@ -12,5 +12,8 @@ namespace BaseProject.Data
         public DbSet<Hall> Halls { get; set; }
 
         public DbSet<Movies> Movies { get; set; }
+
+        public DbSet<MovieShowTime> MoviesShowTime { get; set; }
+
     }
 }

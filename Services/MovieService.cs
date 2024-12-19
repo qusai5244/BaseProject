@@ -2,6 +2,7 @@
 using BaseProject.Dtos;
 using BaseProject.Dtos.Hall;
 using BaseProject.Dtos.Movie;
+using BaseProject.Extensions;
 using BaseProject.Helpers;
 using BaseProject.Helpers.MessageHandler;
 using BaseProject.Models;
@@ -63,6 +64,9 @@ namespace BaseProject.Services
 
 
                 var hall = await query
+                              .Sort(input.SortOrder)
+                               .Search(input.Search)
+                               .Fillter(input.fillter)
                               .Skip(input.PageSize * (input.Page - 1))
                              .Take(input.PageSize)
                             .Select(m => new getMovieListDto

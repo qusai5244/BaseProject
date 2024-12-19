@@ -23,6 +23,7 @@ builder.Services.AddTransient<IMessageHandler, MessageHandler>();
 builder.Services.AddTransient<ICinameServices, CinameService>();
 builder.Services.AddTransient<IHallServices, HallService>();
 builder.Services.AddTransient<IMovieServices, MovieService>();
+builder.Services.AddTransient<IMovieShowTime, MovieShowTimeService>();
 
 
 var app = builder.Build();
