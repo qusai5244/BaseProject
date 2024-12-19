@@ -4513,6 +4513,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.10",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Newtonsoft.Json >= 13.0.3",
@@ -4520,27 +4521,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\QUSAI\\.nuget\\packages\\": {}
+    "C:\\Users\\zamzam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
+      "projectUniqueName": "D:\\project\\BaseProject\\BaseProject.csproj",
       "projectName": "BaseProject",
-      "projectPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\BaseProject.csproj",
-      "packagesPath": "C:\\Users\\QUSAI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\obj\\",
+      "projectPath": "D:\\project\\BaseProject\\BaseProject.csproj",
+      "packagesPath": "C:\\Users\\zamzam\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\BaseProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\QUSAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\zamzam\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4565,6 +4563,12 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.10, )"
           },
