@@ -1,4 +1,5 @@
-﻿using BaseProject.Dtos.Car;
+﻿using BaseProject.Dtos;
+using BaseProject.Dtos.Car;
 using BaseProject.Dtos.Cinema;
 using BaseProject.Helpers.MessageHandler;
 using BaseProject.Services;
@@ -17,6 +18,12 @@ namespace BaseProject.Controllers
         public async Task<IActionResult> Post([FromBody] AddCinemaInputDto input)
         {
             return GetServiceResponse(await _cinemaService.AddCinemaAsync(input));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] GlobalFilterDto input)
+        {
+            return GetServiceResponse(await _cinemaService.GetCinemasListAsync(input));
         }
     }
 }

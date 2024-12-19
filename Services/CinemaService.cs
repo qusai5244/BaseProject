@@ -1,9 +1,11 @@
 ﻿using BaseProject.Data;
+using BaseProject.Dtos;
 using BaseProject.Dtos.Cinema;
 using BaseProject.Helpers;
 using BaseProject.Helpers.MessageHandler;
 using BaseProject.Models;
 using BaseProject.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseProject.Services
 {
@@ -41,5 +43,51 @@ namespace BaseProject.Services
             }
         }
 
+        public async Task<ServiceResponse<Pagination<GetCinemasOutputDto>>> GetCinemasListAsync(GlobalFilterDto input)
+        {
+            try
+            {
+                // Query for all cinemas
+                var query = _dataContext.Cinemas.AsNoTracking();
+
+                // Search filter for cinema name or location
+                if (!string.IsNullOrWhiteSpace(input.Search))
+                {
+                    query = query.Where(c => c.Name.Contains(input.Search) || c.Location.Contains(input.Search));
+                }
+
+                // Get total count of items for pagination
+                var totalItems = await query.CountAsync();
+
+                // Apply pagination
+                var cinemas = await query
+                    .Skip((input.Page - 1) * input.PageSize)
+                    .Take(input.PageSize)
+                    .Select(c => new GetCinemasOutputDto
+                    {
+                        Id = c.Id,
+                        Name = c.Name,
+                        Location = c.Location,
+                        CreatedAt = c.CreatedAt,
+                        UpdatedAt = c.UpdatedAt
+                    })
+                    .ToListAsync();
+
+                // Check cinemas
+                if (!cinemas.Any())
+                {
+                    return _messageHandler.GetServiceResponse<Pagination<GetCinemasOutputDto>>(ErrorMessage.NotFound, null, "cinemas");
+                }
+
+                // Create pagination result
+                var pagination = new Pagination<GetCinemasOutputDto>(cinemas, totalItems, input.Page, input.PageSize);
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, pagination, "Cinemas");
+            }
+            catch (Exception ex)
+            {
+                return _messageHandler.GetServiceResponse<Pagination<GetCinemasOutputDto>>(ErrorMessage.ServerInternalError, null, "GetCinemasListAsync");
+            }
+        }
     }
 }
