@@ -6,6 +6,7 @@ using BaseProject.Helpers.MessageHandler;
 using BaseProject.Models;
 using BaseProject.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace BaseProject.Services
 {
@@ -104,6 +105,41 @@ namespace BaseProject.Services
             catch (Exception ex)
             {
                 return _messageHandler.GetServiceResponse<Pagination<GetMovieOutputDto>>(ErrorMessage.ServerInternalError, null, "GetMovieListAsync");
+            }
+        }
+
+        public async Task<ServiceResponse<List<GetCinemasByMovieNameOutputDto>>> GetCinemasByMovieNameAsync(string movieName)
+        {
+            try
+            {
+                // الاستعلام باستخدام LINQ
+                var query = from cinema in _dataContext.Cinemas
+                            join cinemaHall in _dataContext.CinemaHalls on cinema.Id equals cinemaHall.CinemaId
+                            join movie in _dataContext.Movies on cinemaHall.Id equals movie.CinemaHallId
+                            where movie.Title.Contains(movieName) && !movie.IsDeleted
+                            select new GetCinemasByMovieNameOutputDto
+                            {
+                                MovieName = movie.Title,
+                                ReleaseDate = movie.ReleaseDate,
+                                CinemaId = cinema.Id,
+                                CinemaName = cinema.Name,
+                                CinemaLocation = cinema.Location,
+                                CinemaHall = cinemaHall.HallName
+                            };
+
+                // تحويل النتائج إلى قائمة
+                var cinemas = await query.ToListAsync();
+
+                if (!cinemas.Any())
+                {
+                    return _messageHandler.GetServiceResponse<List<GetCinemasByMovieNameOutputDto>>(ErrorMessage.NotFound, null, "cinemas");
+                }
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, cinemas, "Cinemas");
+            }
+            catch (Exception ex)
+            {
+                return _messageHandler.GetServiceResponse<List<GetCinemasByMovieNameOutputDto>>(ErrorMessage.ServerInternalError, null, "GetCinemasByMovieNameAsync");
             }
         }
 

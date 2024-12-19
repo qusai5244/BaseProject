@@ -8,6 +8,7 @@ namespace BaseProject.Services.Interfaces
     {
         Task<ServiceResponse> AddMovieAsync(AddMovieInputDto input);
         Task<ServiceResponse<Pagination<GetMovieOutputDto>>> GetMovieListAsync(GlobalFilterDto input);
+        Task<ServiceResponse<List<GetCinemasByMovieNameOutputDto>>> GetCinemasByMovieNameAsync(string movieName);
         Task<ServiceResponse> UpdateMovieAsync(int movieId, UpdateMovieInputDto input);
         Task<ServiceResponse> DeleteMovieAsync(int movieId);
     }

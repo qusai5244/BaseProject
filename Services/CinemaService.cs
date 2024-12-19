@@ -40,5 +40,6 @@ namespace BaseProject.Services
                 return _messageHandler.GetServiceResponse(ErrorMessage.ServerInternalError, "AddCinemaAsync");
             }
         }
+
     }
 }

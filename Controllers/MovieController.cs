@@ -27,6 +27,12 @@ namespace BaseProject.Controllers
             return GetServiceResponse(await _movieService.GetMovieListAsync(input));
         }
 
+        [HttpGet("{movieName}")]
+        public async Task<IActionResult> GetCinemasByMovieName(string movieName)
+        {
+            return GetServiceResponse(await _movieService.GetCinemasByMovieNameAsync(movieName));
+        }
+
         [HttpPut("{movieId}")]
         public async Task<IActionResult> Put(int movieId, [FromBody] UpdateMovieInputDto input)
         {
