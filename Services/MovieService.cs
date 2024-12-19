@@ -8,6 +8,7 @@ using BaseProject.Helpers.MessageHandler;
 using BaseProject.Models;
 using BaseProject.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace BaseProject.Services
 {
@@ -247,5 +248,6 @@ namespace BaseProject.Services
 
             }
         }
+
     }
 }

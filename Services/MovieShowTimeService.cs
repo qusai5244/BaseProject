@@ -1,10 +1,17 @@
 ﻿using BaseProject.Data;
+using BaseProject.Dtos;
+using BaseProject.Dtos.Hall;
+using BaseProject.Dtos.Movie;
 using BaseProject.Dtos.MovieShowTime;
+using BaseProject.Extensions;
 using BaseProject.Helpers;
 using BaseProject.Helpers.MessageHandler;
 using BaseProject.Models;
 using BaseProject.Services.Interfaces;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace BaseProject.Services
 {
@@ -53,5 +60,106 @@ namespace BaseProject.Services
 
             }
         }
+
+
+
+
+
+
+        public async Task<ServiceResponse<Pagination<getMovieShowTimeDto>>> GetMovieByCinemaIdAsync([FromQuery] GlobalFilterDto input, int cinemaId)
+        {
+            try
+            {
+                var Gethall = await _dataContext.Halls.Where(h => h.cinema_id == cinemaId).FirstOrDefaultAsync();
+
+                if (Gethall == null)
+                {
+                    return _messageHandler.GetServiceResponse<Pagination<getMovieShowTimeDto>>(ErrorMessage.ServerInternalError, null, "GetHall By cinemaId");
+                }
+
+                var query = _dataContext.MoviesShowTime.AsNoTracking();
+                var totalItems = await query.CountAsync();
+
+                var showTime = await query
+                                  .Where(h => h.HallId == Gethall.Id)
+                                  .Include(st => st.Movies)
+                                  .Select(st => new getMovieShowTimeDto
+                                  {
+                                      HallId = st.HallId,
+                                      MovieId = st.MovieId,
+                                      price = st.price,
+                                      AvailableTickets = st.AvailableTickets,
+                                      MName = st.Movies.MName,
+                                      Title = st.Movies.Title,
+                                  }).ToListAsync();
+
+                var paginationList = new Pagination<getMovieShowTimeDto>(showTime, totalItems, input.Page, input.PageSize);
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, paginationList);
+
+            }
+            catch
+            {
+                return _messageHandler.GetServiceResponse<Pagination<getMovieShowTimeDto>>(ErrorMessage.ServerInternalError, null, "GetHallAsync");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+        public async Task<ServiceResponse<Pagination<getMovieShowTimeDto>>> GetMovieByCinemaIdAsync(GlobalFilterDto input)
+        {
+            try
+            {
+                var query = _dataContext.MoviesShowTime.AsNoTracking();
+                var totalItems = await query.CountAsync();
+
+
+
+                var hall = await query
+                              .Skip(input.PageSize * (input.Page - 1))
+                             .Take(input.PageSize)
+                            .Select(m => new getMovieShowTimeDto
+                            {
+                                MovieId = m.MovieId
+
+
+
+                            })
+                            .ToListAsync();
+
+                var paginationList = new Pagination<getMovieShowTimeDto>(hall, totalItems, input.Page, input.PageSize);
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, paginationList);
+
+
+
+
+
+            }
+            catch
+            {
+                return _messageHandler.GetServiceResponse<Pagination<getMovieShowTimeDto>>(ErrorMessage.ServerInternalError, null, "GetHallAsync");
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
+

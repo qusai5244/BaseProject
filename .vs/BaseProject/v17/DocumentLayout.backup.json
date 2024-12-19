@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\services\\movieshowtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\movieshowtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\controllers\\movieshowtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\movieshowtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\controllers\\cinamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:controllers\\cinamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\services\\movieshowtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\movieshowtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\hp\\onedrive\\desktop\\nahj\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MovieShowTimeService.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieShowTimeService.cs",
-              "RelativeDocumentMoniker": "Services\\MovieShowTimeService.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieShowTimeService.cs",
-              "RelativeToolTip": "Services\\MovieShowTimeService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwBsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:26:18.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:23:14.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MovieShowTimeController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Controllers\\MovieShowTimeController.cs",
               "RelativeDocumentMoniker": "Controllers\\MovieShowTimeController.cs",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Controllers\\MovieShowTimeController.cs",
               "RelativeToolTip": "Controllers\\MovieShowTimeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:19:46.941Z",
+              "WhenOpened": "2024-12-19T09:46:35.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinameController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Controllers\\CinameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CinameController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Controllers\\CinameController.cs",
+              "RelativeToolTip": "Controllers\\CinameController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:46:25.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieService.cs",
+              "RelativeToolTip": "Services\\MovieService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:42:45.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieShowTimeService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieShowTimeService.cs",
+              "RelativeDocumentMoniker": "Services\\MovieShowTimeService.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\nahj\\Services\\MovieShowTimeService.cs",
+              "RelativeToolTip": "Services\\MovieShowTimeService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:42:44.349Z",
               "EditorCaption": ""
             }
           ]
