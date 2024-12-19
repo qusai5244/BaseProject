@@ -3,6 +3,7 @@ using BaseProject.Helpers.MessageHandler;
 using BaseProject.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using BaseProject.Helpers;
+using BaseProject.Dtos.Cinema;
 
 
 
@@ -54,5 +55,28 @@ namespace BaseProject.Controllers
           
             return GetServiceResponse(await _movieService.DeleteMovieAsync(id));
         }
+
+        ////cinema
+
+        //[HttpPost("add-cinema")]
+        //public async Task<IActionResult> AddCinemaAsync([FromBody] CinemaDto cinemaDto)
+        //{
+        //    if (!ModelState.IsValid) return BadRequest(ModelState);
+        //    return GetServiceResponse(await _movieService.AddCinemaAsync(cinemaDto));
+        //}
+
+        //[HttpPost("add-hall/{cinemaId}")]
+        //public async Task<IActionResult> AddHallToCinemaAsync(int cinemaId, [FromBody] HallDto hallDto)
+        //{
+        //    if (!ModelState.IsValid) return BadRequest(ModelState);
+        //    return GetServiceResponse(await _movieService.AddHallToCinemaAsync(cinemaId, hallDto));
+        //}
+
+        //[HttpPost("schedule-movie")]
+        //public async Task<IActionResult> ScheduleMovieAsync([FromBody] MovieScheduleDto scheduleDto)
+        //{
+        //    if (!ModelState.IsValid) return BadRequest(ModelState);
+        //    return GetServiceResponse(await _movieService.ScheduleMovieAsync(scheduleDto));
+        //}
     }
 }

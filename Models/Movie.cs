@@ -24,6 +24,8 @@ namespace BaseProject.Models
         public int Duration { get; set; }
 
         public bool IsDeleted { get; set; }
+
+        public ICollection<MovieSchedule> MovieSchedules { get; set; }
     }
 
     public enum MovieType

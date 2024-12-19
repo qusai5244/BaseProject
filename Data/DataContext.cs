@@ -7,6 +7,10 @@ namespace BaseProject.Data
     {
         public DbSet<Car> Cars { get; set; }
 
-        public DbSet<Movie> Movies { get; set; }    
+        public DbSet<Movie> Movies { get; set; }
+
+        public DbSet<Cinema> Cinemas { get; set; }
+        public DbSet<Hall> Halls { get; set; }
+        public DbSet<MovieSchedule> MovieSchedules { get; set; }
     }
 }

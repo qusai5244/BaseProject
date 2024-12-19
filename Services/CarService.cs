@@ -39,7 +39,7 @@ namespace BaseProject.Services
 
                 return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Car");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // will add logs later
                 return _messageHandler.GetServiceResponse(ErrorMessage.ServerInternalError, "AddCarAsync");
@@ -80,7 +80,7 @@ namespace BaseProject.Services
                 // Step 5: Wrap the pagination result in a ServiceResponse and return it.
                 return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, paginationList);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 return _messageHandler.GetServiceResponse<Pagination<CarListOutputDto>>(ErrorMessage.ServerInternalError, null, "AddCarAsync");
@@ -116,7 +116,7 @@ namespace BaseProject.Services
 
                 return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, car);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 return _messageHandler.GetServiceResponse<CarOutputDto>(ErrorMessage.ServerInternalError, null, "GetCarAsync");
@@ -146,7 +146,7 @@ namespace BaseProject.Services
 
                 return _messageHandler.GetServiceResponse(SuccessMessage.Updated, "Car");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return _messageHandler.GetServiceResponse(ErrorMessage.ServerInternalError, "UpdateCarAsync");
             }

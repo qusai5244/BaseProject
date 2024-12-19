@@ -1,4 +1,5 @@
 ﻿using BaseProject.Data;
+using BaseProject.Dtos.Cinema;
 using BaseProject.Dtos.Movie;
 using BaseProject.Helpers;
 using BaseProject.Helpers.MessageHandler;
@@ -100,7 +101,7 @@ namespace BaseProject.Services
 
                 return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, paginationList);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;
@@ -159,11 +160,116 @@ namespace BaseProject.Services
 
                 return _messageHandler.GetServiceResponse<object>(SuccessMessage.Deleted, null);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
         }
+
+
+        public async Task<ServiceResponse> AddCinemaAsync(CinemaDto cinemaDto)
+        {
+            try
+            {
+                var cinema = new Cinema
+                {
+                    Name = cinemaDto.Name,
+                    Location = cinemaDto.Location,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
+                };
+
+                await _dataContext.Cinemas.AddAsync(cinema);
+                await _dataContext.SaveChangesAsync();
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Cinema");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public async Task<ServiceResponse> AddHallToCinemaAsync(int cinemaId, HallDto hallDto)
+        {
+            try
+            {
+                var cinema = await _dataContext.Cinemas.FindAsync(cinemaId);
+                if (cinema == null)
+                {
+                    
+                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Cinema");
+                }
+
+                var hall = new Hall
+                {
+                    HallName = hallDto.HallName,
+                    SeatingCapacity = hallDto.SeatingCapacity,
+                    CinemaId = cinemaId,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
+                };
+
+                await _dataContext.Halls.AddAsync(hall);
+                await _dataContext.SaveChangesAsync();
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Hall added to cinema");
+            }
+            catch (Exception ex)
+            {
+                
+                throw new Exception("An error occurred while adding hall to cinema.", ex);
+            }
+        }
+
+
+        public async Task<ServiceResponse> ScheduleMovieAsync(MovieScheduleDto scheduleDto)
+        {
+            if (scheduleDto == null)
+            {
+                return _messageHandler.GetServiceResponse(ErrorMessage.InvalidInput, "Schedule data");
+            }
+
+            try
+            {
+                var movie = await _dataContext.Movies.FindAsync(scheduleDto.MovieId);
+                var hall = await _dataContext.Halls.FindAsync(scheduleDto.HallId);
+
+                if (movie == null)
+                {
+                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Movie");
+                }
+
+                if (hall == null)
+                {
+                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Hall");
+                }
+
+                var schedule = new MovieSchedule
+                {
+                    MovieId = scheduleDto.MovieId,
+                    HallId = scheduleDto.HallId,
+                    ShowTime = scheduleDto.ShowTime,
+                    AvailableSeats = scheduleDto.AvailableSeats,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
+                };
+
+                await _dataContext.MovieSchedules.AddAsync(schedule);
+                await _dataContext.SaveChangesAsync();
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Movie scheduled successfully");
+            }
+            catch (Exception ex)
+            {
+               
+                throw new Exception("An error occurred while scheduling the movie.", ex);
+            }
+        }
+
+
+
+
 
     }
 }
