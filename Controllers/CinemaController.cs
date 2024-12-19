@@ -57,6 +57,7 @@ namespace BaseProject.Controllers
             return GetServiceResponse(await _movieService.GetMoviesByCinemaIdAsync(cinemaId));
         }
 
+
     }
 }
 

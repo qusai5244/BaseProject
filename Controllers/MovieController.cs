@@ -56,6 +56,8 @@ namespace BaseProject.Controllers
             return GetServiceResponse(await _movieService.DeleteMovieAsync(id));
         }
 
+        
+
         ////cinema
 
         //[HttpPost("add-cinema")]

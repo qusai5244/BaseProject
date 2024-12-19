@@ -303,10 +303,16 @@ namespace BaseProject.Services
             try
             {
                 
+                if (string.IsNullOrEmpty(movieName))
+                {
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.InvalidInput, "Movie name is required.");
+                }
+
+                
                 var movies = await _dataContext.MovieSchedules
                     .Include(ms => ms.Movie)
                     .Include(ms => ms.Hall)
-                    .Where(ms => ms.Movie.Title.Contains(movieName, StringComparison.OrdinalIgnoreCase))
+                    .Where(ms => EF.Functions.Like(ms.Movie.Title, $"%{movieName}%")) // Case-insensitive LIKE search
                     .Select(ms => new
                     {
                         MovieId = ms.Movie.Id,
@@ -328,9 +334,11 @@ namespace BaseProject.Services
             }
             catch (Exception ex)
             {
+                
                 throw new Exception("An error occurred while searching for the movie.", ex);
             }
         }
+
 
 
 
