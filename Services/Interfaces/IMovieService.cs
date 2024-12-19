@@ -21,7 +21,8 @@ namespace BaseProject.Services.Interfaces
 
         Task<ServiceResponse<object>> DeleteMovieAsync(int id);
         Task<ServiceResponse<object>> ScheduleMovieAsync(MovieScheduleDto scheduleDto);
-        
+        Task<ServiceResponse<object>> SearchMovieByNameAsync(string movieName);
+        Task<ServiceResponse<object>> GetMoviesByCinemaIdAsync(int cinemaId);
     }
 
 

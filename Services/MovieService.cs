@@ -263,6 +263,79 @@ namespace BaseProject.Services
 
 
 
+        public async Task<ServiceResponse<object>> GetMoviesByCinemaIdAsync(int cinemaId)
+        {
+            try
+            {
+                var movies = await _dataContext.MovieSchedules
+                    .Include(ms => ms.Movie)
+                    .Include(ms => ms.Hall)
+                    .Where(ms => ms.Hall.CinemaId == cinemaId)
+                    .Select(ms => new
+                    {
+                        MovieId = ms.Movie.Id,
+                        Title = ms.Movie.Title,
+                        Description = ms.Movie.Description,
+                        Type = ms.Movie.Type,
+                        ReleaseDate = ms.Movie.ReleaseDate,
+                        ShowTime = ms.ShowTime,
+                        AvailableSeats = ms.AvailableSeats
+                    })
+                    .Distinct()
+                    .ToListAsync();
+
+                if (!movies.Any())
+                {
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.NotFound, "No movies found for the specified cinema.");
+                }
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, (object)movies);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while retrieving movies by cinema ID.", ex);
+            }
+        }
+
+
+        public async Task<ServiceResponse<object>> SearchMovieByNameAsync(string movieName)
+        {
+            try
+            {
+                
+                var movies = await _dataContext.MovieSchedules
+                    .Include(ms => ms.Movie)
+                    .Include(ms => ms.Hall)
+                    .Where(ms => ms.Movie.Title.Contains(movieName, StringComparison.OrdinalIgnoreCase))
+                    .Select(ms => new
+                    {
+                        MovieId = ms.Movie.Id,
+                        Title = ms.Movie.Title,
+                        Description = ms.Movie.Description,
+                        Type = ms.Movie.Type,
+                        ReleaseDate = ms.Movie.ReleaseDate,
+                        ShowTime = ms.ShowTime,
+                        AvailableSeats = ms.AvailableSeats
+                    })
+                    .ToListAsync();
+
+                if (!movies.Any())
+                {
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.NotFound, "No movies found with the specified name.");
+                }
+
+                return _messageHandler.GetServiceResponse(SuccessMessage.Retrieved, (object)movies);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while searching for the movie.", ex);
+            }
+        }
+
+
+
+
+
 
 
     }

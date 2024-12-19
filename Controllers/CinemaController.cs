@@ -39,8 +39,26 @@ namespace BaseProject.Controllers
             if (!ModelState.IsValid) return BadRequest(ModelState);
             return GetServiceResponse(await _movieService.ScheduleMovieAsync(scheduleDto));
         }
+
+        [HttpGet("search-movie")]
+        public async Task<IActionResult> SearchMovieByNameAsync([FromQuery] string movieName)
+        {
+            if (string.IsNullOrEmpty(movieName))
+            {
+                return BadRequest("Movie name must be provided.");
+            }
+
+            return GetServiceResponse(await _movieService.SearchMovieByNameAsync(movieName));
+        }
+
+        [HttpGet("cinemas/{cinemaId}/movies")]
+        public async Task<IActionResult> GetMoviesByCinemaIdAsync([FromRoute] int cinemaId)
+        {
+            return GetServiceResponse(await _movieService.GetMoviesByCinemaIdAsync(cinemaId));
+        }
+
     }
-    }
+}
 
         
         
