@@ -158,7 +158,10 @@ namespace BaseProject.Services
                 movie.UpdatedAt = DateTime.UtcNow;
                 await _dataContext.SaveChangesAsync();
 
+
                 return _messageHandler.GetServiceResponse<object>(SuccessMessage.Deleted, null);
+
+
             }
             catch (Exception)
             {
@@ -167,38 +170,36 @@ namespace BaseProject.Services
         }
 
 
-        public async Task<ServiceResponse> AddCinemaAsync(CinemaDto cinemaDto)
+        public async Task<ServiceResponse<object>> AddCinemaAsync(CinemaDto cinemaDto)
         {
             try
             {
                 var cinema = new Cinema
                 {
                     Name = cinemaDto.Name,
-                    Location = cinemaDto.Location,
-                    CreatedAt = DateTime.UtcNow,
-                    UpdatedAt = DateTime.UtcNow
+                    Location = cinemaDto.Location
                 };
 
                 await _dataContext.Cinemas.AddAsync(cinema);
                 await _dataContext.SaveChangesAsync();
 
-                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Cinema");
+                return _messageHandler.GetServiceResponse<object>(SuccessMessage.Created, "Cinema");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                throw new Exception("An error occurred while adding the cinema.", ex);
             }
         }
 
-        public async Task<ServiceResponse> AddHallToCinemaAsync(int cinemaId, HallDto hallDto)
+
+        public async Task<ServiceResponse<object>> AddHallToCinemaAsync(int cinemaId, HallDto hallDto)
         {
             try
             {
                 var cinema = await _dataContext.Cinemas.FindAsync(cinemaId);
                 if (cinema == null)
                 {
-                    
-                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Cinema");
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.NotFound, "Cinema");
                 }
 
                 var hall = new Hall
@@ -213,36 +214,30 @@ namespace BaseProject.Services
                 await _dataContext.Halls.AddAsync(hall);
                 await _dataContext.SaveChangesAsync();
 
-                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Hall added to cinema");
+                return _messageHandler.GetServiceResponse<object>(SuccessMessage.Created, "Hall added successfully");
             }
             catch (Exception ex)
             {
-                
-                throw new Exception("An error occurred while adding hall to cinema.", ex);
+                throw new Exception("An error occurred while adding the hall.", ex);
             }
         }
 
 
-        public async Task<ServiceResponse> ScheduleMovieAsync(MovieScheduleDto scheduleDto)
-        {
-            if (scheduleDto == null)
-            {
-                return _messageHandler.GetServiceResponse(ErrorMessage.InvalidInput, "Schedule data");
-            }
 
+        public async Task<ServiceResponse<object>> ScheduleMovieAsync(MovieScheduleDto scheduleDto)
+        {
             try
             {
                 var movie = await _dataContext.Movies.FindAsync(scheduleDto.MovieId);
-                var hall = await _dataContext.Halls.FindAsync(scheduleDto.HallId);
-
                 if (movie == null)
                 {
-                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Movie");
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.NotFound, "Movie");
                 }
 
+                var hall = await _dataContext.Halls.FindAsync(scheduleDto.HallId);
                 if (hall == null)
                 {
-                    return _messageHandler.GetServiceResponse(ErrorMessage.NotFound, "Hall");
+                    return _messageHandler.GetServiceResponse<object>(ErrorMessage.NotFound, "Hall");
                 }
 
                 var schedule = new MovieSchedule
@@ -258,11 +253,10 @@ namespace BaseProject.Services
                 await _dataContext.MovieSchedules.AddAsync(schedule);
                 await _dataContext.SaveChangesAsync();
 
-                return _messageHandler.GetServiceResponse(SuccessMessage.Created, "Movie scheduled successfully");
+                return _messageHandler.GetServiceResponse<object>(SuccessMessage.Created, "Movie scheduled successfully");
             }
             catch (Exception ex)
             {
-               
                 throw new Exception("An error occurred while scheduling the movie.", ex);
             }
         }
