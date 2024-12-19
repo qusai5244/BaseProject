@@ -34,7 +34,7 @@ namespace BaseProject.Helpers.MessageHandler
 
                 ErrorMessage.RolesNotBelongToBusinessGroup => "Roles does not exists for your business group",
 
-                ErrorMessage.InValidPermissions => "Permissions sent are invalid",
+                ErrorMessage.InvalidInput => "Permissions sent are invalid",
 
                 ErrorMessage.UserAlreadyLoggedIn => "Already loggedin",
 
