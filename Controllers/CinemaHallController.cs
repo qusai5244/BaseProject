@@ -1,7 +1,6 @@
 ﻿using BaseProject.Dtos;
 using BaseProject.Dtos.CinemaHall;
 using BaseProject.Helpers.MessageHandler;
-using BaseProject.Services;
 using BaseProject.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,13 +13,13 @@ namespace BaseProject.Controllers
         public readonly ICinemaHallService _cinemaHallService = cinemaHallService;
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] AddCinemaHallInputDto input)
+        public async Task<IActionResult> AddCinemaHallAsync([FromBody] AddCinemaHallInputDto input)
         {
             return GetServiceResponse(await _cinemaHallService.AddCinemaHallAsync(input));
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] GlobalFilterDto input)
+        public async Task<IActionResult> GetCinemaHallListAsync([FromQuery] GlobalFilterDto input)
         {
             return GetServiceResponse(await _cinemaHallService.GetCinemaHallListAsync(input));
         }

@@ -112,7 +112,6 @@ namespace BaseProject.Services
         {
             try
             {
-                // الاستعلام باستخدام LINQ
                 var query = from cinema in _dataContext.Cinemas
                             join cinemaHall in _dataContext.CinemaHalls on cinema.Id equals cinemaHall.CinemaId
                             join movie in _dataContext.Movies on cinemaHall.Id equals movie.CinemaHallId
@@ -127,7 +126,6 @@ namespace BaseProject.Services
                                 CinemaHall = cinemaHall.HallName
                             };
 
-                // تحويل النتائج إلى قائمة
                 var cinemas = await query.ToListAsync();
 
                 if (!cinemas.Any())
