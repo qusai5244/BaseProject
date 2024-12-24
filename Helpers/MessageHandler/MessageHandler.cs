@@ -34,8 +34,6 @@ namespace BaseProject.Helpers.MessageHandler
 
                 ErrorMessage.RolesNotBelongToBusinessGroup => "Roles does not exists for your business group",
 
-                ErrorMessage.InValidPermissions => "Permissions sent are invalid",
-
                 ErrorMessage.UserAlreadyLoggedIn => "Already loggedin",
 
                 ErrorMessage.UnableToRegisterUser => GetFormat("Unable to register user with email {0}", extraMessage),

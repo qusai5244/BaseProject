@@ -30,7 +30,7 @@
 
         MoreRolesSubmitted = 4011,
         RolesNotBelongToBusinessGroup = 4012,
-        InValidPermissions = 4013,
+        InvalidInput = 4013,
 
         UserAlreadyLoggedIn = 4014,
         UnableToRegisterUser = 4015,

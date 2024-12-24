@@ -6,9 +6,7 @@ using BaseProject.Helpers;
 namespace BaseProject.Controllers
 {
     [ApiController]
-    [Authorize]
-    [Consumes("application/json")]
-    [Produces("application/json")]
+
     public class BaseController : ControllerBase
     {
         private readonly IMessageHandler _messageHandler;
@@ -79,10 +77,10 @@ namespace BaseProject.Controllers
             return response.Succeed ? Ok(apiResponse) : BadRequest(apiResponse);
         }
 
-        //[NonAction]
-        //public BadRequestObjectResult InvaidInput()
-        //{
-        //    return BadRequest(new ApiResponse((int)ErrorMessage.InvalidInput, _messageHandler.GetMessage(ErrorMessage.InvalidInput), ErrorExtractor.GetErrors(ModelState)));
-        //}
+        [NonAction]
+        public BadRequestObjectResult InvaidInput()
+        {
+            return BadRequest(new ApiResponse((int)ErrorMessage.InvalidInput, _messageHandler.GetMessage(ErrorMessage.InvalidInput), ErrorExtractor.GetErrors(ModelState)));
+        }
     }
 }
