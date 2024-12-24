@@ -96,3 +96,5 @@ v17/
 *.suo
 *.bin
 *.json
+/.vs/BaseProject/v17/.suo
+/.vs/BaseProject/CopilotIndices/0.2.1657.32929/SemanticSymbols.db-shm
