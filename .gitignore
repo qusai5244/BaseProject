@@ -96,3 +96,13 @@ v17/
 *.suo
 *.bin
 *.json
+/.vs/BaseProject/v17/.suo
+/.vs/BaseProject/CopilotIndices/0.2.1657.32929/SemanticSymbols.db
+/.vs/BaseProject/CopilotIndices/0.2.1657.32929/CodeChunks.db
+/.vs/BaseProject/CopilotIndices/0.2.1657.32929/SemanticSymbols.db-wal
+/.vs/BaseProject/CopilotIndices/0.2.1657.32929/SemanticSymbols.db-shm
+/obj/Debug/net8.0/BaseProject.AssemblyInfoInputs.cache
+/obj/Debug/net8.0/BaseProject.AssemblyInfo.cs
+/obj/project.assets.json
+/obj/project.nuget.cache
+/obj/BaseProject.csproj.nuget.dgspec.json
