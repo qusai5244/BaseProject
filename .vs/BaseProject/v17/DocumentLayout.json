@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\",
+  "WorkspaceRootPath": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\qusai\\desktop\\files\\dotnet\\baseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\qusai\\desktop\\nahj\\baseproject\\baseproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:baseproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\qusai\\desktop\\nahj\\baseproject\\services\\cinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\cinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\qusai\\desktop\\nahj\\baseproject\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|c:\\users\\qusai\\desktop\\nahj\\baseproject\\services\\interfaces\\icinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E4A1C-D0DD-4D9C-ACCF-9E7DBB07F782}|BaseProject.csproj|solutionrelative:services\\interfaces\\icinemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +39,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\QUSAI\\Desktop\\Files\\Dotnet\\BaseProject\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Title": "BaseProject",
+              "DocumentMoniker": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\BaseProject.csproj",
+              "RelativeDocumentMoniker": "BaseProject.csproj",
+              "ToolTip": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\BaseProject.csproj",
+              "RelativeToolTip": "BaseProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T14:33:58.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\CarService.cs",
+              "RelativeToolTip": "Services\\CarService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:57:47.614Z",
+              "WhenOpened": "2024-12-24T17:22:57.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICinemaService.cs",
+              "DocumentMoniker": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICinemaService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICinemaService.cs",
+              "ToolTip": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\Interfaces\\ICinemaService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICinemaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:06:30.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaService.cs",
+              "DocumentMoniker": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\CinemaService.cs",
+              "RelativeDocumentMoniker": "Services\\CinemaService.cs",
+              "ToolTip": "C:\\Users\\QUSAI\\Desktop\\Nahj\\BaseProject\\Services\\CinemaService.cs",
+              "RelativeToolTip": "Services\\CinemaService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA1wFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:06:23.196Z",
               "EditorCaption": ""
             }
           ]
