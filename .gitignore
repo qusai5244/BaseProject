@@ -106,3 +106,4 @@ v17/
 /obj/project.assets.json
 /obj/project.nuget.cache
 /obj/BaseProject.csproj.nuget.dgspec.json
+/.vs/BaseProject/DesignTimeBuild/.dtbcache.v2
