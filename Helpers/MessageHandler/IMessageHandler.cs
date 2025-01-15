@@ -21,6 +21,8 @@
         NotFound = 4004,
         AlreadyExists = 4005,
 
+        InvalidInput = 4006,
+
         WrongPassword = 4006,
 
         UnableToAdd = 4007,
@@ -84,6 +86,8 @@
         ServerInternalError = 5000,
         NotActive = 5100,
         HpsEndpointError = 5002,
+
+
 
 
     }

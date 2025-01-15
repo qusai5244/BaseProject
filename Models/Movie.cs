@@ -4,7 +4,7 @@
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public string Type { get; set; } 
+        public MovieType Type { get; set; } 
         public MovieStatus Status { get; set; }
         public DateTime ReleaseDate { get; set; }
         public int DurationInMinutes { get; set; }

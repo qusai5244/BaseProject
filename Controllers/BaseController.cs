@@ -79,10 +79,10 @@ namespace BaseProject.Controllers
             return response.Succeed ? Ok(apiResponse) : BadRequest(apiResponse);
         }
 
-        //[NonAction]
-        //public BadRequestObjectResult InvaidInput()
-        //{
-        //    return BadRequest(new ApiResponse((int)ErrorMessage.InvalidInput, _messageHandler.GetMessage(ErrorMessage.InvalidInput), ErrorExtractor.GetErrors(ModelState)));
-        //}
+        [NonAction]
+        public BadRequestObjectResult InvaidInput()
+        {
+            return BadRequest(new ApiResponse((int)ErrorMessage.InvalidInput, "Invalid Input", ErrorExtractor.GetErrors(ModelState)));
+        }
     }
 }
